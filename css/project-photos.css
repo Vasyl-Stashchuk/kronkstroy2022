@@ -1,0 +1,59 @@
+.project-h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 4% 0;
+}
+    
+.project-h3 h3 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 3% 0;
+}
+
+.project-photos {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.active {
+    display: block;
+}
+
+.passive {
+    display: none;
+}
+
+.project-photos-blocks {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
+.project-photos hr {
+    width: 20%;
+    justify-content: left;
+    margin: 5%;
+    color:  #f7654a;
+    opacity: 1;
+}
+
+.project-photos h4 {
+    color: white;
+    font-size: 65%;
+    margin-left: 5%;
+}
+
+.project-photos img {
+    max-width: 90%;
+    border-radius: 7%;
+    margin-left: 5%;
+    transition: 1s; /* Время эффекта */
+}
+
+.project-photos img:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб; */
+}
