@@ -95,7 +95,7 @@ function buttonBlock3(){
     <div>
       <img src="img/icons/premium-icon-buildings-group-48752.png">
       <h4>ВСЕ <br>
-         ПРОЕКТЫ</h4>
+       ПРОЕКТЫ</h4>
     </div>
   </a>
   <a class="block1" id="block1" onclick = "viewBlockPrivate()" onmousedown = "buttonBlock1()">
@@ -108,13 +108,15 @@ function buttonBlock3(){
   <a class="block2" id="block2" onclick = "viewBlockResidential()" onmousedown = "buttonBlock2()">
     <div>
       <img src="img/icons/premium-icon-building-48765.png">
-      <h4>ЖИЛАЯ НЕДВИЖИМОСТЬ</h4>
+      <h4>ЖИЛАЯ <br>
+       НЕДВИЖИМОСТЬ</h4>
     </div>
   </a>
   <a class="block3" id="block3" onclick = "viewBlockCommercial()" onmousedown = "buttonBlock3()">
     <div>
       <img src="img/icons/premium-icon-building-48753.png">
-      <h4>КОММЕРЧЕСКАЯ НЕДВИЖИМОСТЬ</h4>
+      <h4>КОММЕРЧЕСКАЯ <br>
+       НЕДВИЖИМОСТЬ</h4>
     </div>
   </a>
 </div>
