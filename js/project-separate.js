@@ -34,73 +34,141 @@
     const images = [
     {
         id: "9",
-        photo:'img/9Atem/atem-1.gif',
+        photo:'img/9Atem/Atem-1.gif',
     },
     {
         id: "9",
-        photo:'img/9Atem/atem-2.gif',
+        photo:'img/9Atem/Atem-2.gif',
     },
     {
         id: "9",
-        photo:'img/9Atem/atem-3.gif',
+        photo:'img/9Atem/Atem-3.gif',
     },
     {
         id: "9",
-        photo:'img/9Atem/atem-4.gif',
+        photo:'img/9Atem/Atem-4.gif',
     },
     {
         id: "9",
-        photo:'img/9Atem/atem-5.gif',
+        photo:'img/9Atem/Atem-5.gif',
     },
     {
       id: "8",
-      photo:'img/8Voomy/voomy-it-park-1.gif',
+      photo:'img/8Voomy/Voomy-1.gif',
     },
     {
       id: "8",
-      photo:'img/8Voomy/voomy-it-park-2.gif',
+      photo:'img/8Voomy/Voomy-2.gif',
     },
     {
       id: "8",
-      photo:'img/8Voomy/voomy-it-park-3.gif',
+      photo:'img/8Voomy/Voomy-3.gif',
     },
     {
       id: "8",
-      photo:'img/8Voomy/voomy-it-park-4.gif',
+      photo:'img/8Voomy/Voomy-4.gif',
     },
     {
       id: "8",
-      photo:'img/8Voomy/voomy-it-park-5.gif',
+      photo:'img/8Voomy/Voomy-5.gif',
     },
     {
       id: "8",
-      photo:'img/8Voomy/voomy-it-park-6.gif',
+      photo:'img/8Voomy/Voomy-6.gif',
     },
     {
       id: "8",
-      photo:'img/8Voomy/voomy-it-park-7.gif',
+      photo:'img/8Voomy/Voomy-7.gif',
     },
     {
       id: "8",
-      photo:'img/8Voomy/voomy-it-park-8.gif',
+      photo:'img/8Voomy/Voomy-8.gif',
     },
     {
       id: "8",
-      photo:'img/8Voomy/voomy-it-park-9.gif',
+      photo:'img/8Voomy/Voomy-9.gif',
     },
     {
       id: "8",
-      photo:'img/8Voomy/voomy-it-park-10.gif',
+      photo:'img/8Voomy/Voomy-10.gif',
     },
     {
       id: "8",
-      photo:'img/8Voomy/voomy-it-park-11.gif',
+      photo:'img/8Voomy/Voomy-11.gif',
     },
     {
       id: "8",
-      photo:'img/8Voomy/voomy-it-park-12.gif',
+      photo:'img/8Voomy/Voomy-12.gif',
+    },
+    {
+      id: "7",
+      photo:'img/7Admin/Admin-1.gif',
+    },
+    {
+      id: "7",
+      photo:'img/7Admin/Admin-2.gif',
+    },
+    {
+      id: "7",
+      photo:'img/7Admin/Admin-3.gif',
+    },
+    {
+      id: "7",
+      photo:'img/7Admin/Admin-4.gif',
+    },
+    {
+      id: "7",
+      photo:'img/7Admin/Admin-5.gif',
+    },
+    {
+      id: "7",
+      photo:'img/7Admin/Admin-6.gif',
+    },
+    {
+      id: "7",
+      photo:'img/7Admin/Admin-7.gif',
+    },
+    {
+      id: "7",
+      photo:'img/7Admin/Admin-8.gif',
+    },
+    {
+      id: "7",
+      photo:'img/7Admin/Admin-9.gif',
+    },
+    {
+      id: "7",
+      photo:'img/7Admin/Admin-10.gif',
+    },
+    {
+      id: "7",
+      photo:'img/7Admin/Admin-11.gif',
+    },
+    {
+      id: "7",
+      photo:'img/7Admin/Admin-12.gif',
+    },
+    {
+      id: "6",
+      photo:'img/6Miron/Miron-1.gif',
+    },
+    {
+      id: "6",
+      photo:'img/6Miron/Miron-2.gif',
+    },
+    {
+      id: "6",
+      photo:'img/6Miron/Miron-3.gif',
+   },
+    {
+      id: "6",
+      photo:'img/6Miron/Miron-4.gif',
+    },
+    {
+      id: "6",
+      photo:'img/6Miron/Miron-5.gif',
     }
-  ];
+    ];
   
   function renderImages(images) {
     const project = JSON.parse(localStorage.project);
