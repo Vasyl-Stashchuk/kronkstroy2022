@@ -10,7 +10,6 @@
     opacity: 1;
 }
 
-
 header {
     display: flex;
     align-items: center;
@@ -31,7 +30,6 @@ article {
 
 article section {
     padding: 2% 0% 2% 0%;
-
 }
 
 article .top-separate h3 {
@@ -42,15 +40,14 @@ article .top-separate h3 {
 
 article section h4 {
     font-size: 95%;
-    text-align: left;
-
+    text-align: center;
 }
+
 article hr {
     width: 20%;
     justify-content: left;
     margin-left: 1%;
-    color:  black;
-    
+    color:  black;   
 }
 
 .block-separate {

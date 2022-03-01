@@ -93,7 +93,7 @@ function buttonBlock3(){
   <div class="block-screen" id="we-do">
   <a class="block0" id="block0" onclick = "viewBlockAll()" onmousedown = "buttonBlock0()" style="filter: invert();">
     <div>
-      <img src="img/icons/premium-icon-house-48781.png">
+      <img src="img/icons/premium-icon-buildings-group-48752.png">
       <h4>ВСЕ <br>
          ПРОЕКТЫ</h4>
     </div>
@@ -107,7 +107,7 @@ function buttonBlock3(){
   </a>
   <a class="block2" id="block2" onclick = "viewBlockResidential()" onmousedown = "buttonBlock2()">
     <div>
-      <img src="img/icons/premium-icon-buildings-group-48752.png">
+      <img src="img/icons/premium-icon-building-48765.png">
       <h4>ЖИЛАЯ НЕДВИЖИМОСТЬ</h4>
     </div>
   </a>

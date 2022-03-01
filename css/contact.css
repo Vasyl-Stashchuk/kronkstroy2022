@@ -1,7 +1,5 @@
 .contact div {
     background-color: black;
-    /* border-radius: 15px; */
-    /* margin: 10px 100px 10px 100px; */
     display: flex;
     flex-direction: column;
     align-items: center;
