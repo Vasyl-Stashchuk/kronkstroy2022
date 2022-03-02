@@ -10,7 +10,7 @@
     </div>
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner" data-id="${project.id}">
-    <div class="carousel-item active">
+    <div class="carousel-item active" data-bs-interval="100000">
       <img src="${project.image}" class="d-block w-100" alt="${project.title}">
     </div>
     </div>
@@ -167,6 +167,122 @@
     {
       id: "6",
       photo:'img/6Miron/Miron-5.gif',
+    },
+    {
+      id: "5",
+      photo:'img/5AtbMarket/AtbMarket-1.gif',
+    },
+    {
+      id: "5",
+      photo:'img/5AtbMarket/AtbMarket-2.gif',
+    },
+    {
+      id: "5",
+      photo:'img/5AtbMarket/AtbMarket-3.gif',
+    },
+    {
+      id: "5",
+      photo:'img/5AtbMarket/AtbMarket-4.gif',
+    },
+    {
+      id: "5",
+      photo:'img/5AtbMarket/AtbMarket-5.gif',
+    },
+    {
+      id: "5",
+      photo:'img/5AtbMarket/AtbMarket-6.gif',
+    },
+    {
+      id: "5",
+      photo:'img/5AtbMarket/AtbMarket-7.gif',
+    },
+    {
+      id: "5",
+      photo:'img/5AtbMarket/AtbMarket-8.gif',
+    },
+    {
+      id: "5",
+      photo:'img/5AtbMarket/AtbMarket-9.gif',
+    },
+    {
+      id: "5",
+      photo:'img/5AtbMarket/AtbMarket-10.gif',
+    },
+    {
+      id: "5",
+      photo:'img/5AtbMarket/AtbMarket-11.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-1.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-2.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-3.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-4.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-5.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-6.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-7.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-8.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-9.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-10.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-11.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-12.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-13.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-14.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-15.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-16.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-17.gif',
+    },
+    {
+      id: "4",
+      photo:'img/4Delmar/Delmar-18.gif',
     }
     ];
   
