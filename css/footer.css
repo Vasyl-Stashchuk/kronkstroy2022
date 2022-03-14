@@ -1,7 +1,35 @@
+@media screen and (min-width: 1250px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        background-color: white;
+        color: black;
+        height: 45vh;
+    }
 
-footer {
-    background-color: white;
-    color: black;
+    footer p {
+        margin: 0 ;
+        color: white;
+        padding: 1%;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 1250px){ 
+    .footer {
+        
+        background-color: white;
+        color: black;
+    }
+
+    footer p {
+        margin: 0 ;
+        color: white;
+        padding: 3%;
+        text-align: center;
+    }
 }
 
 footer .img-footer{
@@ -64,6 +92,7 @@ footer h3 {
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     color: black;
+    /* margin: 2%; */
 }
 
 footer h4 {
@@ -72,12 +101,8 @@ footer h4 {
 
 footer .footer-down {
     background-color: black;
+    
 }
 
-footer p {
-    margin: 0 ;
-    color: white;
-    padding: 3%;
-    text-align: center;
-}
+
 

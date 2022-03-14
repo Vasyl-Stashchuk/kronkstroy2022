@@ -88,3 +88,19 @@ footer .footer-bar .using-service {
     color: black;
     border: 1px solid #f7654a;
 }
+
+@media screen and (min-width: 1250px) {
+    .block-white {
+        background-image: none!important;
+    }
+}
+
+@media screen
+and (min-width: 615px) 
+and (max-width: 1250px){ 
+    
+}
+
+@media screen and (max-width: 615px) {
+
+}

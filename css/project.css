@@ -6,6 +6,10 @@
     filter: none;
 }
 
+.screen-block {
+    background-color: black;
+}
+
 .block-screen {
     display: flex;
     flex-direction: row;
@@ -16,31 +20,23 @@
 
 .block-screen img {
     max-width: 50%;
-    /* filter: invert(48%) sepia(39%) saturate(2898%) hue-rotate( */
-        /* 333deg) brightness(104%) contrast(94%); */
 }
 
 .block-h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: black;
 }
     
 .block-h3 h3 {
     padding: 3% 0;
-    color: black;
+    color: white;
     text-align: center;
     margin: 0;
 }
 
-.block-screen h4 {
-    font-weight: bold;
-    font-size: 59%;
-    text-align: center;
-    /* padding: 0 11%; */
-    color: black;
-}
+
 
 .block-screen div {
     display: flex;
@@ -66,3 +62,4 @@ footer .footer-bar .using-project {
     color: black;
     border: 1px solid #f7654a;
 }
+
