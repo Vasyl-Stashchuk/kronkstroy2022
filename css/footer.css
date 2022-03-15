@@ -1,4 +1,4 @@
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 615px) {
     .footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -17,7 +17,7 @@
     
 }
 
-@media screen and (max-width: 1250px){ 
+@media screen and (max-width: 615px){ 
     .footer {
         
         background-color: white;

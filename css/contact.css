@@ -12,8 +12,11 @@
     padding: 3% 11%;
 }
 
-.contact h2  {
+.contact h3  {
+    padding: 1% 0;
     color: white;
+    text-align: center;
+    margin: 0;
 }
 
 form {
