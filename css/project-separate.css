@@ -18,8 +18,8 @@ header {
     height: 80px;
 }
 
-.header-top img { 
-    max-width: 25% ;
+.header-top img {
+    max-width: 25%;
 }
 
 article {
@@ -33,21 +33,20 @@ article section {
 }
 
 article .top-separate h3 {
-    font-size: 95%;
     text-align: center;
-    margin: 2%;
+    margin: 1%;
 }
 
 article section h4 {
-    font-size: 95%;
     text-align: center;
+    padding: 2%;
 }
 
 article hr {
     width: 20%;
     justify-content: left;
     margin-left: 1%;
-    color:  black;   
+    color: black;
 }
 
 .block-separate {
@@ -69,23 +68,52 @@ footer .footer-bar .using-project {
     border: 1px solid #f7654a;
 }
 
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-prev,
+.carousel-control-next {
     display: none!important;
 }
 
 @media screen and (min-width: 800px) {
-    .carousel-control-prev, .carousel-control-next {
-        display:block!important;
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: block!important;
     }
-    
 }
 
+.pictures {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    column-gap: 1em;
+    margin-bottom: -1em;
+}
 
+a {
+    display: inline-block;
+}
 
+img {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+}
 
+.full {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 8%;
+    background: #CCC center no-repeat;
+    background: rgba(0, 0, 0, 0.5) center no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+}
 
-
-
-
-
-
+a:focus+.full {
+    display: block;
+}

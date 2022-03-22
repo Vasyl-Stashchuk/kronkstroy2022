@@ -13,17 +13,11 @@
     text-align: center;
     color: white;
     margin: 0;
-    padding: 3% 0;
+    padding: 2% 0;
 }
 
 
 @media screen and (min-width: 1250px) {
-    .project-photos {
-        background-color: black;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    
     .project-photos h4 {
         color: white;
         font-size: 85%;

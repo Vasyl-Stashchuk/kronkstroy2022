@@ -85,6 +85,15 @@ header {
     display: none;
 }
 
+@media screen and (min-width: 1250px) {
+    .project-photos {
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }    
+}
+
+
 .services-h3 {
     display: none;
     padding: 1% 0;

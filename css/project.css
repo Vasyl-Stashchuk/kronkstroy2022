@@ -30,7 +30,7 @@
 }
     
 .block-h3 h3 {
-    padding: 2% 0;
+    padding: 1% 0;
     color: white;
     text-align: center;
     margin: 0;
@@ -53,6 +53,14 @@
 
 .services .block-swhite , .services .block-sblack {
     display: none;
+}
+
+@media screen and (min-width: 1250px) {
+    .project-photos {
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }    
 }
 
 footer .footer-bar .using-project {
