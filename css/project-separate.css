@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body {
+    margin: 0;
+}
+
 .super-hr {
     width: 35%;
     justify-content: left;
@@ -26,10 +30,6 @@ article {
     background-color: white;
     display: flex;
     flex-direction: column;
-}
-
-article section {
-    padding: 2% 0% 2% 0%;
 }
 
 article .top-separate h3 {
@@ -68,19 +68,20 @@ footer .footer-bar .using-project {
     border: 1px solid #f7654a;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    display: none!important;
-}
-
-@media screen and (min-width: 800px) {
-    .carousel-control-prev,
-    .carousel-control-next {
-        display: block!important;
-    }
+.carousel {
+    display: flex;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    column-gap: 1em;
+    margin-bottom: -1em;
 }
 
 .pictures {
+    display: flex;
+    overflow-x: hidden;
     -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
@@ -94,9 +95,30 @@ a {
     display: inline-block;
 }
 
-img {
-    display: block;
-    width: 100%;
+@media screen and (min-width: 1250px) {
+    .pictures {
+        margin: 0 9rem;
+    }
+}
+
+@media screen and (min-width: 615px) and (max-width: 1250px) {
+    .pictures {
+        margin: 0 9rem;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .pictures {
+        margin: 0 9rem;
+    }
+}
+
+.pictures img {
+    object-fit: cover;
+    object-position: left;
+    display: flex;
+    width: 33rem;
+    height: 33rem;
     margin-bottom: 1em;
 }
 
@@ -110,10 +132,38 @@ img {
     padding: 8%;
     background: #CCC center no-repeat;
     background: rgba(0, 0, 0, 0.5) center no-repeat;
+    -webkit-background-origin: content-box;
     background-size: contain;
     background-origin: content-box;
 }
 
 a:focus+.full {
     display: block;
+}
+
+.prev,
+.next {
+    text-decoration: none;
+    position: absolute;
+    z-index: 2;
+    font-size: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    background: none rgba(0, 0, 0, 0.1);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 0.25rem;
+    padding: 0px 0.5rem;
+}
+
+.prev {
+    left: 1rem;
+}
+
+.next {
+    right: 1rem;
 }

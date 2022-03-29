@@ -7,9 +7,13 @@
     <h3>${project.title}</h3>
     <hr class="super-hr">
     </div>
-    <section class="pictures">
-
+    <div class="carousel">
+    <button id="prev" type="button" class="prev"><</button>
+    <section id="container" class="pictures">
+    
     </section>
+    <button id="next" type="button" class="next">></button>
+    </div>
   <section>
         <h4>${project.text}</h4>
     </section>
@@ -277,10 +281,10 @@
         for (const image of images)
             if (project.id == image.id) {
                 imagesContainer.innerHTML += `
-                <a href="${image.photo}">
+                <a class="carousel-pictures" href="${image.photo}">
                 <img src="${image.photo}">
             </a>
-            <a id="" href="#" class="full" style="background-image:url(${image.photo})"></a>
+            <a href="#" class="full" style="background-image:url(${image.photo})"></a>
 
             `;
             }
@@ -288,3 +292,14 @@
 
     renderImages(images);
 })();
+
+document.addEventListener('DOMContentLoaded', function() {
+    var button = document.getElementById('prev');
+    button.onclick = function() {
+        document.getElementById('container').scrollLeft -= 545;
+    };
+    var button = document.getElementById('next');
+    button.onclick = function() {
+        document.getElementById('container').scrollLeft += 545;
+    };
+}, false);
