@@ -281,17 +281,22 @@
         for (const image of images)
             if (project.id == image.id) {
                 imagesContainer.innerHTML += `
+                <div>
                 <a class="carousel-pictures" href="${image.photo}">
                 <img src="${image.photo}">
             </a>
             <a href="#" class="full" style="background-image:url(${image.photo})"></a>
-
+            </div>
             `;
             }
     }
 
     renderImages(images);
 })();
+
+// var size = 1250;
+
+// document.querySelector('carousel').scrollIntoView({ behavior: "smooth" });
 
 document.addEventListener('DOMContentLoaded', function() {
     var button = document.getElementById('prev');
@@ -303,3 +308,16 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('container').scrollLeft += 545;
     };
 }, false);
+
+
+
+// function myFunction(x) {
+//     size = 545;
+//     console.log(x);
+// }
+
+
+
+// var x = window.matchMedia("(min-width: 1250px)")
+// myFunction(x) // Call listener function at run time
+// x.addListener(myFunction)
