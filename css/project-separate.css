@@ -76,49 +76,62 @@ footer .footer-bar .using-project {
     -webkit-column-gap: 1em;
     -moz-column-gap: 1em;
     column-gap: 1em;
-    margin-bottom: -1em;
+    /* margin-bottom: -1em; */
 }
 
 .pictures {
+    scroll-snap-type: x proximity;
     display: flex;
     overflow-x: hidden;
+    overflow-y: hidden;
     -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
     -webkit-column-gap: 1em;
     -moz-column-gap: 1em;
     column-gap: 1em;
-    margin-bottom: -1em;
+    /* margin-bottom: -1em; */
+    transition: left 1s;
+    margin: 0 1em;
+}
+
+.pictures div {
+    scroll-snap-align: center;
 }
 
 a {
     display: inline-block;
 }
 
-@media screen and (min-width: 1250px) {
-    .pictures {
-        margin: 0 9rem;
+@media screen and (min-width: 1920px) {
+    .pictures img {
+        width: 33rem;
+        height: 33rem;
     }
 }
 
-@media screen and (min-width: 615px) and (max-width: 1250px) {
-    .pictures {
-        margin: 0 9rem;
+@media screen and (min-width: 1250px) and (max-width: 1920px) {
+    .pictures img {
+        width: 33rem;
+        height: 33rem;
     }
 }
 
-@media screen and (max-width: 615px) {
-    .pictures {
-        margin: 0 9rem;
+@media screen and (max-width: 1250px) {
+    .pictures img {
+        width: 33rem;
+        height: 33rem;
     }
+}
+
+.carousel-pictures {
+    width: 33rem;
+    height: 33rem;
 }
 
 .pictures img {
     object-fit: cover;
     object-position: left;
-    display: flex;
-    width: 33rem;
-    height: 33rem;
     margin-bottom: 1em;
 }
 
