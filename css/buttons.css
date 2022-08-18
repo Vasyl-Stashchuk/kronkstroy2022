@@ -6,6 +6,10 @@
     opacity: 1;
 }
 
+::selection {
+    background: #f7654a;
+}
+
 @media screen and (min-width: 1250px) {
     
     
