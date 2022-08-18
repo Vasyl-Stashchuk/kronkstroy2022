@@ -125,14 +125,16 @@ a {
 }
 
 .carousel-pictures {
-    width: 33rem;
-    height: 33rem;
+    width: 16rem;
+    height: 16rem;
 }
 
 .pictures img {
     object-fit: cover;
     object-position: left;
     margin-bottom: 1em;
+    width: 16rem;
+    height: 16rem;
 }
 
 .full {
