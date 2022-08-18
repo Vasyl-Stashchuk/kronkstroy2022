@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.super-hr {
+    width: 35%;
+    justify-content: left;
+    margin: 2%;
+    color: #f7654a;
+    opacity: 1;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(15, 15, 15, 0.90);
+    height: 80px;
+}
+
+.header-top img {
+    max-width: 25%;
+}
+
+article {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+article .top-separate h3 {
+    text-align: center;
+    margin: 1%;
+}
+
+article section h4 {
+    text-align: center;
+    padding: 2%;
+}
+
+article hr {
+    width: 20%;
+    justify-content: left;
+    margin-left: 1%;
+    color: black;
+}
+
+.block-separate {
+    background-color: black;
+    color: white;
+}
+
+article .top-separate {
+    /* background-color: white;
+    color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .footer-bar .using-project {
+    background-color: white;
+    color: black;
+    border: 1px solid #f7654a;
+}
+
+.carousel {
+    display: flex;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    column-gap: 1em;
+    /* margin-bottom: -1em; */
+}
+
+.pictures {
+    scroll-snap-type: x proximity;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    column-gap: 1em;
+    /* margin-bottom: -1em; */
+    transition: left 1s;
+    margin: 0 1em;
+}
+
+.pictures div {
+    scroll-snap-align: center;
+}
+
+a {
+    display: inline-block;
+}
+
+@media screen and (min-width: 1920px) {
+    .pictures img {
+        width: 33rem;
+        height: 33rem;
+    }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1920px) {
+    .pictures img {
+        width: 33rem;
+        height: 33rem;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .pictures img {
+        width: 33rem;
+        height: 33rem;
+    }
+}
+
+.carousel-pictures {
+    width: 33rem;
+    height: 33rem;
+}
+
+.pictures img {
+    object-fit: cover;
+    object-position: left;
+    margin-bottom: 1em;
+}
+
+.full {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 8%;
+    background: #CCC center no-repeat;
+    background: rgba(0, 0, 0, 0.5) center no-repeat;
+    -webkit-background-origin: content-box;
+    background-size: contain;
+    background-origin: content-box;
+}
+
+a:focus+.full {
+    display: block;
+}
+
+.prev,
+.next {
+    text-decoration: none;
+    position: absolute;
+    z-index: 2;
+    font-size: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    background: none rgba(0, 0, 0, 0.1);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 0.25rem;
+    padding: 0px 0.5rem;
+}
+
+.prev {
+    left: 1rem;
+}
+
+.next {
+    right: 1rem;
+}
