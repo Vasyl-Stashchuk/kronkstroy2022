@@ -301,11 +301,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     var button = document.getElementById('prev');
     button.onclick = function() {
-        document.getElementById('container').scrollLeft -= 545;
+        document.getElementById('container').scrollLeft -= 256;
     };
     var button = document.getElementById('next');
     button.onclick = function() {
-        document.getElementById('container').scrollLeft += 545;
+        document.getElementById('container').scrollLeft += 256;
     };
 }, false);
 
