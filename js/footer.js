@@ -15,22 +15,22 @@
         </div>
         <div>
             <div class="footer-text">
-                <h3>Навигация</h3>
+                <h3>Навигація</h3>
                 <hr class="super-hr">
             </div>
             <div class="footer-bar">
-                <a class="using-index" href="index.html">Главная</a>
-                <a class="using-about" href="">О Нас </a>
-                <a class="using-project" href="project.html">Проекты</a>
-                <a class="using-service" href="service.html">Услуги</a>
-                <a class="using-contact" href="contact.html">Контакты</a>
+                <a class="using-index" href="index.html">Головна</a>
+                <a class="using-about" href="">Про нас </a>
+                <a class="using-project" href="project.html">Проекти</a>
+                <a class="using-service" href="service.html">Послуги</a>
+                <a class="using-contact" href="contact.html">Контакти</a>
             </div>
         </div>
             <div>
             <div class="footer-text">
-                <h3>Локация</h3>
+                <h3>Локація</h3>
                 <hr class="super-hr">
-                <h4>г. Днепр, Ул. Академика Белелюбского (бывш. Краснозаводская) Дом №54-а</h4>
+                <h4>м. Дніпро, Вул. Академика Белелюбского (бывш. Краснозаводская) Дом №54-а</h4>
                 <h4>+38 056 736-30-55
                 <br> +38 096 692-64-53</h4>
                 <h4>kronkstroy@gmail.com</h4>
