@@ -117,7 +117,8 @@ header {
 
 .services img {
     max-width: 125%;
-    margin-bottom: -2rem;
+    margin-bottom: -3rem;
+    object-fit: cover;
 }
 
 .services .block-white {
@@ -175,8 +176,8 @@ header {
         flex-direction: column;
         align-items: center;
         padding: 3% 0% 4% 0%;
-        backdrop-filter: brightness(25%);
-        -webkit-backdrop-filter: brightness(25%);
+        backdrop-filter: brightness(30%);
+        -webkit-backdrop-filter: brightness(30%);
     }
     .services article div h3 {
         padding: 2%;

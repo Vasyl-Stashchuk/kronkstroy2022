@@ -82,8 +82,7 @@ footer .footer-bar .using-project {
 .pictures {
     scroll-snap-type: x proximity;
     display: flex;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    
     -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
@@ -103,43 +102,72 @@ a {
     display: inline-block;
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1500px) {
+    .pictures {
+        overflow: hidden;
+    }
+
     .pictures img {
-        width: 33rem;
-        height: 33rem;
+        object-fit: cover;
+        object-position: left;
+        margin-bottom: 1em;
+        width: 22rem;
+        height: 22rem;
+    }
+    .carousel-pictures {
+        width: 22rem;
+        height: 22rem;
     }
 }
 
-@media screen and (min-width: 1250px) and (max-width: 1920px) {
+@media screen and (min-width: 900px) and (max-width: 1500px) {
+    .pictures {
+        overflow: hidden;
+    }
+
     .pictures img {
-        width: 33rem;
-        height: 33rem;
+        object-fit: cover;
+        object-position: left;
+        margin-bottom: 1em;
+        width: 16rem;
+        height: 16rem;
+    }
+    .carousel-pictures {
+        width: 16rem;
+        height: 16rem;
     }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 900px) {
+    .pictures {
+        overflow: hidden;
+    }
+    
     .pictures img {
-        width: 33rem;
-        height: 33rem;
+        object-fit: cover;
+        object-position: left;
+        margin-bottom: 1em;
+        width: 12rem;
+        height: 12rem;
+    }
+    .carousel-pictures {
+        width: 12rem;
+        height: 12rem;
     }
 }
 
-.carousel-pictures {
+
+
+/* .pictures img {
+    
     width: 16rem;
     height: 16rem;
-}
-
-.pictures img {
-    object-fit: cover;
-    object-position: left;
-    margin-bottom: 1em;
-    width: 16rem;
-    height: 16rem;
-}
+} */
 
 .full {
     display: none;
     position: fixed;
+    z-index: 2;
     left: 0;
     top: 0;
     right: 0;
@@ -166,7 +194,7 @@ a:focus+.full {
     transform: translateY(-50%);
     color: rgba(255, 255, 255, 0.5);
     cursor: pointer;
-    background: none rgba(0, 0, 0, 0.1);
+    background: none rgba(0, 0, 0, 0);
     border-width: initial;
     border-style: none;
     border-color: initial;

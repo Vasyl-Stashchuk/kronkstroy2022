@@ -54,6 +54,9 @@ footer .footer-bar .using-contact {
 @media screen and (min-width:900px) {
     .success {
         background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding: 3rem 0;
     }
     
@@ -73,6 +76,9 @@ footer .footer-bar .using-contact {
     .success {
         background-color: black;
         padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .success h3 {
