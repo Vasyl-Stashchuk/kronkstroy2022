@@ -89,7 +89,11 @@
     <div>
       <h3>ЗВ'ЯЖІТЬСЯ З НАМИ</h3>
       <hr class="super-hr">
-    <form class="contact-form" action="https://formsubmit.co/lil.doggy.rocky8@gmail.com" method="POST">
+    <form class="contact-form" action="https://formsubmit.co/doggy.rocky8@gmail.com" method="POST">
+      <!-- Honeypot -->
+      <input type="text" name="_honey" style="display:none;">
+      <!-- Disable Captcha  -->
+      <input type="hidden" name="_captcha" value="false">
       <h4>Ваше ім'я</h4>
       <input class="contact-input" type="text" name="user-name" placeholder="*Ваше ім'я (обов'язково)" required><br>
       <h4>Ваш номер телефону</h4>
