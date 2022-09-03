@@ -50,3 +50,39 @@ footer .footer-bar .using-contact {
     color: black;
     border: 1px solid #f7654a;
 }
+
+@media screen and (min-width:900px) {
+    .success {
+        background-color: black;
+        padding: 3rem 0;
+    }
+    
+    .success h3 {
+        color: white;
+        text-align: center;
+    }
+    
+    .success h4 {
+        text-align: center;
+        color: white;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .success {
+        background-color: black;
+        padding: 1rem 0;
+    }
+    
+    .success h3 {
+        color: white;
+        text-align: center;
+    }
+    
+    .success h4 {
+        text-align: center;
+        color: white;
+        padding: 0 1rem;
+    }
+}
