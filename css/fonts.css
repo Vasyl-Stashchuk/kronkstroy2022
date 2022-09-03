@@ -4,6 +4,33 @@
     scroll-behavior: smooth;
 }
 
+.super-hr {
+    width: 20%;
+    justify-content: left;
+    margin: 1%;
+    color: #f7654a;
+    opacity: 1;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: black;
+    /* border-radius: 50px; */
+    }
+
+::-Webkit-scrollbar-thumb{
+    background: white;
+    border-radius:50px;
+}
+
+::selection {
+    background: #f7654a;
+}
+
+
 img {
     vertical-align: baseline !important;
 }
