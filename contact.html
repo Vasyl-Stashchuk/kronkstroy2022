@@ -28,23 +28,24 @@
           </button>
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
               
-                <ul class="navbar-nav me-auto mb-2 mb-lg-2 container-fluid justify-content-end">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-2 container-fluid justify-content-end">
               <li class="nav-item">
-                <a class="nav-link text-uppercase"  href="index.html">Главная</a>
+                <a class="nav-link text-uppercase" aria-current="page" href="index.html">Головна</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-uppercase" href="#">О Нас</a>
+                <a class="nav-link text-uppercase" href="#">Про нас</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link text-uppercase"  href="project.html">Проекты</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-uppercase" href="service.html">Услуги</a>
+                <a class="nav-link text-uppercase" href="project.html">Проекти</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-uppercase" aria-current="page" href="contact.html">Контакты</a>
+                <a class="nav-link text-uppercase" href="aga.html">Послуги</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-uppercase" href="contact.html">Контакти</a>
               </li>
             </ul>
+              
               
           </div>
         </div>
@@ -52,21 +53,21 @@
 
       <section class="contact" id="contact">  
         <div>
-          <h3>КОНТАКТЫ</h3>
+          <h3>КОНТАКТИ</h3>
           <hr class="super-hr">
-        <form class="contact-form"  method="POST">
-          <h4>Ваше имя</h4>
-          <input class="contact-input" type="text" name="user-name" placeholder="*Ваше имя (обязательно)" required><br>
-          <h4>Ваш номер телефона</h4>
-          <input class="contact-input" type="tel" name="user-name" placeholder="*Ваш номер телефона" ><br>
-          <h4>Ваш e-mail</h4>
-          <input class="contact-input" type="email" name="user-tel" placeholder="*Ваш e-mail (обязательно)" required><br>
-          <h4>Тема сообщения</h4>
-          <input class="contact-input" type="text" name="user-subject" id="user_subject" placeholder="*Тема" required><br>
-          <h4>Сообщение</h4>
-          <textarea class="contact-input" name="user-message" id="user_message" placeholder="*Сообщение" required></textarea>
-          <button href= "mailto:lil.doggy.rocky8@gmail.com" class="contact-button">Отправить</button>
-        </form>
+          <form class="contact-form" action="https://formsubmit.co/lil.doggy.rocky8@gmail.com" method="POST">
+            <h4>Ваше ім'я</h4>
+            <input class="contact-input" type="text" name="user-name" placeholder="*Ваше ім'я (обов'язково)" required><br>
+            <h4>Ваш номер телефону</h4>
+            <input class="contact-input" type="tel" name="user-name" placeholder="*Ваш номер телефону" ><br>
+            <h4>Ваш e-mail</h4>
+            <input class="contact-input" type="email" name="user-tel" placeholder="*Ваш e-mail (обов'язково)" required><br>
+            <h4>Тема повідомлення</h4>
+            <input class="contact-input" type="text" name="user-subject" id="user_subject" placeholder="*Тема" required><br>
+            <h4>Повідомлення</h4>
+            <textarea class="contact-input" name="user-message" id="user_message" placeholder="*Повідомлення" required></textarea>
+            <button type="submit" class="contact-button">Відправити</button>
+          </form>
         </div>
       </section>
 
