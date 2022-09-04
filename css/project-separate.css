@@ -173,7 +173,7 @@ a {
     right: 0;
     bottom: 0;
     padding: 8%;
-    background: #CCC center no-repeat;
+/*     background: #CCC center no-repeat; */
     background: rgba(0, 0, 0, 0.5) center no-repeat;
     -webkit-background-origin: content-box;
     background-size: contain;
