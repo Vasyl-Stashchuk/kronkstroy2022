@@ -103,10 +103,7 @@ a {
 }
 
 @media screen and (min-width: 1500px) {
-    .pictures {
-        overflow: hidden;
-    }
-
+    
     .pictures img {
         object-fit: cover;
         object-position: left;
@@ -121,9 +118,6 @@ a {
 }
 
 @media screen and (min-width: 900px) and (max-width: 1500px) {
-    .pictures {
-        overflow: hidden;
-    }
 
     .pictures img {
         object-fit: cover;
@@ -139,10 +133,7 @@ a {
 }
 
 @media screen and (max-width: 900px) {
-    .pictures {
-        overflow: hidden;
-    }
-    
+
     .pictures img {
         object-fit: cover;
         object-position: left;
@@ -156,15 +147,61 @@ a {
     }
 }
 
-
-
-/* .pictures img {
+.pictures {
+    overflow: hidden;
     
-    width: 16rem;
-    height: 16rem;
-} */
+    /* position: relative; */
+    /* min-height: 100vh; */
+    /* background: #ddd; */
+}
 
-.full {
+
+.pictures .image {
+    /* height: 250px; */
+    /* width: 350px; */
+    /* border: 10px solid #fff; */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    /* overflow: hidden; */
+    cursor: pointer;
+}
+
+.popup-image {
+    position: fixed;
+    top:0; left: 0;
+    background: rgba(0, 0, 0, .9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.popup-image span {
+    position: absolute;
+    top:31px; right:10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.popup-image img {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 5px solid #fff; */
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+}
+
+@media ( max-width:768px) {
+    .popup-image img {
+        width: 95%;
+    }
+}
+
+/* .full {
     display: none;
     position: fixed;
     z-index: 2;
@@ -173,17 +210,17 @@ a {
     right: 0;
     bottom: 0;
     padding: 8%;
+    background: #CCC center no-repeat;
     background-color: black;
-/*     background: #CCC center no-repeat; */
     background: rgba(0, 0, 0, 0.5) center no-repeat;
     -webkit-background-origin: content-box;
     background-size: contain;
     background-origin: content-box;
-}
+} */
 
-a:focus+.full {
+/* a:focus+.full {
     display: block;
-}
+} */
 
 .prev,
 .next {

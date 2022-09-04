@@ -15,7 +15,7 @@
         </div>
         <div>
             <div class="footer-text">
-                <h3>Навигація</h3>
+                <h3>Навігація</h3>
                 <hr class="super-hr">
             </div>
             <div class="footer-bar">

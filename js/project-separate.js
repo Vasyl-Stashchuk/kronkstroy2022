@@ -17,6 +17,10 @@
   <section>
         <h4>${project.text}</h4>
     </section>
+    <div class="popup-image">
+        <span>&times;</span>
+        <img src="Miron-1.gif" alt=""> 
+    </div>
             `;
 })();
 
@@ -281,18 +285,21 @@
         for (const image of images)
             if (project.id == image.id) {
                 imagesContainer.innerHTML += `
-                <div>
-                <a class="carousel-pictures" href="${image.photo}">
+                <div class="image">
+                
                 <img src="${image.photo}">
-            </a>
-            <a href="#" class="full" style="background-image:url(${image.photo})"></a>
-            </div>
-            `;
+                </div>
+                `;
             }
-    }
-
-    renderImages(images);
-})();
+        }
+        
+        renderImages(images);
+    })();
+    
+    {
+        /* <a class="carousel-pictures" href="${image.photo}"></a> */}
+        // </a>
+    // <a href="#" class="full" style="background-image:url(${image.photo})"></a> 
 
 // var size = 1250;
 
@@ -308,6 +315,19 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('container').scrollLeft += 256;
     };
 }, false);
+
+
+
+
+document.querySelectorAll('.pictures img').forEach(image =>{
+    image.onclick = () =>{
+        document.querySelector('.popup-image').style.display = 'block' ;
+        document.querySelector('.popup-image img').src = image.getAttribute('src');  
+    }
+});
+document.querySelector ('.popup-image span') . onclick = ( ) =>{
+    document.querySelector ('.popup-image') . style.display = 'none';
+}    
 
 
 
