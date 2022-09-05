@@ -18,6 +18,8 @@ header {
 
 .block-screen a {
     text-decoration: none;
+    cursor: pointer;
+
 }
 
 .block-screen a:active {
@@ -28,7 +30,7 @@ header {
     display: flex;
     flex-direction: row;
     background-color: white;
-    padding: 1%;
+    /* padding: 1%; */
 }
 
 .block-screen img {
