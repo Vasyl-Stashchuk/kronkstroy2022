@@ -34,7 +34,7 @@ article {
 
 article .top-separate h3 {
     text-align: center;
-    margin: 1%;
+    margin: 4%;
 }
 
 article section h4 {
@@ -138,8 +138,8 @@ a {
         object-fit: cover;
         object-position: left;
         margin-bottom: 1em;
-        width: 12rem;
-        height: 12rem;
+        width: 23rem;
+        height: 15rem;
     }
     .carousel-pictures {
         width: 12rem;
