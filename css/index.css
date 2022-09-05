@@ -186,7 +186,9 @@ header {
         font-family: 'Playfair Display', serif;
     }
     .services article div h4 {
-        padding: 2%;
+        padding: 2% 13%;
+    text-align: left;
+    font-size: large;
     }
 }
 
