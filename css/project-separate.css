@@ -145,14 +145,35 @@ a {
         width: 12rem;
         height: 12rem;
     }
+
+    .next, .prev {
+        display: none;
+    }
+
+    
 }
 
 .pictures {
-    overflow: hidden;
+    overflow: scroll;
     
     /* position: relative; */
     /* min-height: 100vh; */
     /* background: #ddd; */
+}
+
+.pictures::-webkit-scrollbar{
+    width: 0;
+    display: none;
+}
+
+.pictures::-webkit-scrollbar-track{
+    background: black;
+    border-radius: 0;
+    }
+
+.pictures::-Webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 0;
 }
 
 
