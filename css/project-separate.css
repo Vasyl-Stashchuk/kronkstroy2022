@@ -80,7 +80,7 @@ footer .footer-bar .using-project {
 }
 
 .pictures {
-    scroll-snap-type: x proximity;
+    scroll-snap-type: x mandatory;
     display: flex;
     
     -webkit-column-count: 4;
