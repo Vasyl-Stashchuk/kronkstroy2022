@@ -31,15 +31,7 @@ form h4 {
     margin: 2% 0;
 }
 
-.contact-input {
-    padding: 5%;
-    border-radius: 1rem;
-    background-color:  white;
-    border: 1px solid  black;
-    font-family: "Roboto";
-    width: 100%;
-    color: black;
-}
+
 
 .contact ::placeholder {
     color: black;
@@ -70,6 +62,16 @@ footer .footer-bar .using-contact {
         color: white;
         padding: 0 1rem;
     }
+
+    .contact-input {
+        padding: 3%;
+        border-radius: 1rem;
+        background-color:  white;
+        border: 1px solid  black;
+        font-family: "Roboto";
+        width: 100%;
+        color: black;
+    }
 }
 
 @media screen and (max-width:900px) {
@@ -90,5 +92,15 @@ footer .footer-bar .using-contact {
         text-align: center;
         color: white;
         padding: 0 1rem;
+    }
+
+    .contact-input {
+        padding: 5%;
+        border-radius: 1rem;
+        background-color:  white;
+        border: 1px solid  black;
+        font-family: "Roboto";
+        width: 100%;
+        color: black;
     }
 }

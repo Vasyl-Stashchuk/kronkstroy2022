@@ -68,6 +68,10 @@ footer .footer-text {
 
 }
 
+ footer .footer-text h4 {
+    
+}
+
 footer .footer-bar {
     display: grid;
     grid-template-columns: 1fr 1fr;
