@@ -49,6 +49,19 @@
         padding: 5rem 0;
         max-width: 50%;   
     }
+
+    .about-text h4, .about-text li {
+        font-size: x-large;
+        color: white;
+        padding: 0 10%;
+    }
+    
+    .about-text-alt h4 {
+        color: black;
+        font-size: x-large;
+        font-weight: bold;
+        padding: 0 10%;
+    }
     
 }
 
@@ -91,6 +104,19 @@
     .about-text, .about-text-alt {
         padding: 5rem 0;
         max-width: 50%;   
+    }
+
+    .about-text h4, .about-text li {
+        font-size: x-large;
+        color: white;
+        padding: 0 10%;
+    }
+    
+    .about-text-alt h4 {
+        color: black;
+        font-size: x-large;
+        font-weight: bold;
+        padding: 0 10%;
     }
 
 }
@@ -141,19 +167,22 @@
         /* max-width: 50%;    */
     }
 
+    .about-text h4, .about-text li {
+        font-size: large;
+        color: white;
+        padding: 0 10%;
+    }
+    
+    .about-text-alt h4 {
+        color: black;
+        font-size: large;
+        font-weight: bold;
+        padding: 0 10%;
+    }
+
 }
 
-.about-text h4, .about-text li {
-    font-size: x-large;
-    color: white;
-    padding: 0 10%;
-}
 
-.about-text-alt h4 {
-    color: black;
-    font-weight: bold;
-    padding: 0 10%;
-}
 
 .about-img, .about-img-alt {
     max-width: 100%;
