@@ -189,7 +189,7 @@
 
 .about-logo img {
     z-index: -1;
-    max-width: 60%;
+    max-width: 50%;
     /* filter: invert(99%) sepia(5%) saturate(366%) hue-rotate(214deg) brightness(120%) contrast(100%); */
 }
 
