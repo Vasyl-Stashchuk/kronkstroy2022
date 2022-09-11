@@ -44,8 +44,9 @@ h3 {
     color: white;
 }
 
-h4 {
+h4, li {
     font-family: 'Source Sans Pro', sans-serif;
+    /* font-weight: bold; */
     
 }
 
