@@ -122,6 +122,7 @@
 }
 
 
+
 @media screen and (max-width: 900px) {
     .about-con {
         display: flex;
@@ -182,7 +183,15 @@
 
 }
 
+.about-logo {
+    text-align: center;
+}
 
+.about-logo img {
+    z-index: -1;
+    max-width: 60%;
+    /* filter: invert(99%) sepia(5%) saturate(366%) hue-rotate(214deg) brightness(120%) contrast(100%); */
+}
 
 .about-img, .about-img-alt {
     max-width: 100%;
