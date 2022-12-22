@@ -24,7 +24,7 @@
         align-items: center;
         flex-direction: row-reverse;
         background-color: white;
-        background-image: url(../img/BgAbout4.jpg);
+        /* background-image: url(../img/BgAbout4.jpg); */
         background-size: cover;
         
     }
@@ -80,7 +80,7 @@
         align-items: center;
         flex-direction: row-reverse;
         background-color: white;
-        background-image: url(../img/BgAbout4.jpg);
+        /* background-image: url(../img/BgAbout4.jpg); */
         background-size: cover;
 
     }
@@ -129,6 +129,7 @@
         justify-content: left;
         align-items: center;
         flex-direction: column;
+        padding: 1rem 0;
     }
 
     .about-con-alt {
@@ -137,9 +138,9 @@
         align-items: center;
         flex-direction: column;
         background-color: white;
-        background-image: url(../img/BgAbout4.jpg);
+        /* background-image: url(../img/BgAbout4.jpg); */
         background-size: cover;
-        padding: 9rem 0;
+        padding: 1rem 0;
         background-position: center;
     }
 
