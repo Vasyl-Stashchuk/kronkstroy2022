@@ -1,0 +1,119 @@
+.project {
+    background-color: black;
+}
+
+.project-h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+    
+.project-h3 h3 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 2% 0;
+}
+
+
+@media screen and (min-width: 1250px) {
+    .project-photos h4 {
+        color: white;
+        font-size: 85%;
+        margin-left: 5%;
+    }
+    
+    .block-screen h4 {
+        font-weight: bold;
+        font-size: 75%;
+        text-align: center;
+        /* padding: 0 11%; */
+        color: black;
+    }
+
+    
+    
+}
+
+@media screen
+and (min-width: 615px) 
+and (max-width: 1250px){ 
+    .project-photos {
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .project-photos h4 {
+        color: white;
+        font-size: 70%;
+        margin-left: 5%;
+    }
+
+    .block-screen h4 {
+        font-weight: bold;
+        font-size: 75%;
+        text-align: center;
+        /* padding: 0 11%; */
+        color: black;
+    }
+    
+}
+
+@media screen and (max-width: 615px) {
+    .project-photos {
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .project-photos h4 {
+        color: white;
+        font-size: 80%;
+        margin-left: 5%;
+    }
+
+    .block-screen h4 {
+        font-weight: bold;
+        font-size: 59%;
+        text-align: center;
+        /* padding: 0 11%; */
+        color: black;
+    }
+    
+}
+
+.active {
+    display: block;
+}
+
+.passive {
+    display: none;
+}
+
+.project-photos-blocks {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
+.project-photos hr {
+    width: 20%;
+    justify-content: left;
+    margin: 5%;
+    color:  #f7654a;
+    opacity: 1;
+}
+
+
+.project-photos img {
+    max-width: 90%;
+    border-radius: 7%;
+    margin-left: 5%;
+    transition: 1s; /* Время эффекта */
+}
+
+.project-photos img:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб; */
+}
