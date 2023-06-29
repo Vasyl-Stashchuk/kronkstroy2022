@@ -18,6 +18,13 @@ body {
     margin: 0;
 }
 
+.services-h3 h5 {
+    padding: 1% 0;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
 .service {
     /* background-image: url(../img/pipa.png); */
     background-position: 50% 23%;
@@ -30,10 +37,31 @@ body {
     .service {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding: 2rem 0;
+    }
+
+    .service div {
+        /* margin: 0rem 1rem 0rem 1rem; */
+        padding: 2rem;
+        padding-left: 7rem;
     }
     
     .service .none {
         display: block;
+    }
+
+    .about h5 {
+        font-size: 24px;
+        margin: 0 1rem;
+        color: white;
+    }
+
+    .about .aboutbg {
+        padding: 7rem;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        
     }
 }
 
@@ -41,45 +69,74 @@ body {
     .service {
         display: grid;
         grid-template-columns: 1fr ;
+        padding: 1rem 0;
+    }
+
+    .service div {
+        /* margin: 0rem 1rem 0rem 1rem; */
+        padding: 1rem;
+        padding-left: 2rem;
     }
 
     .service .none {
         display: none;
     }
+
+    .about h5 {
+        font-size: 18px;
+        margin: 0 1rem;
+        color: white;
+    }
+
+    .about .aboutbg {
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        
+    }
 }
 
-.service div {
-    margin: 0rem 1rem 0rem 1rem;
-    padding: 1rem;
+
+
+.service img {
+    filter: invert();
+    width: 50px;
+    height: 50px;
 }
 
 .service .exist {
     /* border-style: solid; */
-    color: white;
-    background-color: white;
+    /* color: white; */
+    /* background-color: white; */
     /* border-radius: 1rem; */
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
 }
 
 .service .exist h5 {
-    color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .about {
+    /* backdrop-filter: sepia(90%);; */
+    /* -webkit-backdrop-filter: blur(10px); */
+    background-image: url(../img/services/image2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    /* height: 600px; */
     
 }
 
-.about .aboutbg {
-    background-image: url(../img/4Delmar/Delmar-1.gif);
-    background-size: cover;
-    background-position: 50% 23%;
-    background-repeat: no-repeat;
-    backdrop-filter: brightness(25%);
-    -webkit-backdrop-filter: brightness(25%);
-}
 
-.about h5 {
-    margin: 0 1rem;
-}
+
+
 
 footer .footer-bar .using-service  {
     background-color: white;
