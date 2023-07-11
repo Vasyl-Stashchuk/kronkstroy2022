@@ -83,7 +83,6 @@ footer .footer-bar .using-project {
     scroll-snap-type: x mandatory;
     -webkit-scroll-snap-type: x mandatory;
     display: flex;
-    
     -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
@@ -92,7 +91,8 @@ footer .footer-bar .using-project {
     column-gap: 1em;
     /* margin-bottom: -1em; */
     transition: left 1s;
-    margin: 0 1em;
+    margin: 0 10px;
+    gap: 10px;
 }
 
 .pictures div {
@@ -271,3 +271,27 @@ a {
 .next {
     right: 1rem;
 }
+
+.pswp-gallery__item {
+    margin: 0 4px 4px 0;
+  }
+  .pswp-gallery__item img {
+    display: block;
+    
+  }
+  
+  .pswp__dynamic-caption {
+    color: #fff;
+    width: 100%;
+  }
+  .pswp__dynamic-caption a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .pswp__img {
+    height: auto!important;
+    /* width: auto!important; */
+  }
+
+ 

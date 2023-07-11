@@ -69,7 +69,7 @@ and (max-width: 1250px){
         grid-template-columns: 1fr 1fr;
         gap: 6px;
         padding: 0 6px;
-    }
+    
     }
     
     .project-photos h4 {
@@ -121,3 +121,4 @@ and (max-width: 1250px){
 .project-photos img:hover {
     transform: scale(1.1); /* Увеличиваем масштаб; */
 }
+

@@ -9,7 +9,7 @@
     </div>
     <div class="carousel">
     <button id="prev" type="button" class="prev"><</button>
-    <div id="gallery" class="pswp-gallery pictures">
+    <div id="gallery--responsive-images" class="pswp-gallery pictures">
     
     </div>
     <button id="next" type="button" class="next">></button>
@@ -27,7 +27,7 @@
 (function() {
     const images = [{
             id: "9",
-            photo: 'img/9Atem/Atem-1.gif',
+            photo: 'img/9Atem/Atem-1.gif', 
         },
         {
             id: "9",
@@ -288,8 +288,9 @@
                 
                 <div class="pswp-gallery__item">
       <a href="${image.photo}" 
+        data-pswp-width="800" 
+        data-pswp-height="800" >
         
-        target="_blank">
         <img src="${image.photo}">
       </a>
       <div class="pswp-caption-content"><b>Lorem ipsum dolor (1933)</b><br>Color photograph<br>12 x 10</div>
@@ -313,11 +314,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     var button = document.getElementById('prev');
     button.onclick = function() {
-        document.getElementById('container').scrollLeft -= 250;
+        document.getElementById('gallery').scrollLeft -= 250;
     };
     var button = document.getElementById('next');
     button.onclick = function() {
-        document.getElementById('container').scrollLeft += 250;
+        document.getElementById('gallery').scrollLeft += 250;
     };
 }, false);
 

@@ -79,8 +79,10 @@
         top: 30, bottom: 30, left: 0, right: 0
       };
       const lightbox = new PhotoSwipeLightbox({
-        gallerySelector: '#gallery',
+        gallerySelector: '#gallery--responsive-images',
         childSelector: '.pswp-gallery__item',
+
+        
         
         // optionaly adjust viewport
         paddingFn: (viewportSize) => {
