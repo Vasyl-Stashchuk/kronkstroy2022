@@ -98,6 +98,9 @@ function buttonBlock3(){
        ПРОЕКТИ</h4>
     </div>
   </a>
+
+ <hr>
+
   <a class="block1" id="block1" onclick = "viewBlockPrivate()" onmousedown = "buttonBlock1()">
     <div>
       <img src="img/icons/premium-icon-modern-building-of-a-house-48772.png">
@@ -105,6 +108,9 @@ function buttonBlock3(){
        СЕКТОР</h4>
     </div>
   </a>
+  
+ <hr>
+ 
   <a class="block2" id="block2" onclick = "viewBlockResidential()" onmousedown = "buttonBlock2()">
     <div>
       <img src="img/icons/premium-icon-building-48765.png">
@@ -112,6 +118,9 @@ function buttonBlock3(){
       НЕРУХОМІСТЬ</h4>
     </div>
   </a>
+  
+ <hr>
+ 
   <a class="block3" id="block3" onclick = "viewBlockCommercial()" onmousedown = "buttonBlock3()">
     <div>
       <img src="img/icons/premium-icon-building-48753.png">
@@ -126,4 +135,12 @@ function buttonBlock3(){
 
 
 
-
+<script type="module">
+import PhotoSwipeLightbox from 'photoswipe/dist/photoswipe-lightbox.esm.js';
+const lightbox = new PhotoSwipeLightbox({
+  gallery: '#my-gallery',
+  children: 'a',
+  pswpModule: () => import('photoswipe/dist/photoswipe.esm.js')
+});
+lightbox.init();
+</script>

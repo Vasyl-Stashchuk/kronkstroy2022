@@ -24,6 +24,7 @@
         
         background-color: white;
         color: black;
+        padding-top: 20px;
     }
 
     footer p {
@@ -67,7 +68,7 @@ footer .footer-text {
     flex-direction: column;
     align-items: center;
     margin-bottom: 1vw;
-
+    padding: 0 25px;
 }
 
  footer .footer-text h4 {

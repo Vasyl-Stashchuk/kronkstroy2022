@@ -31,6 +31,7 @@ header {
     flex-direction: row;
     background-color: white;
     /* padding: 1%; */
+    padding-bottom: 20px;
 }
 
 .block-screen img {
@@ -51,6 +52,7 @@ header {
     color: black;
     text-align: center;
     margin: 0;
+    padding-top: 20px;
 }
 
 .block-screen h4 {
@@ -64,11 +66,22 @@ header {
 .block-screen div {
     display: flex;
     flex-direction: column;
-    background-color: #F7F7F7F7;
-    border-radius: 1rem;
+    background-color: white;
+    border-radius: 12px;
     align-items: center;
-    margin: 6%;
-    /* padding: 1%; */
+    /* margin: 6%; */
+    padding: 12%;
+    gap: 10px;
+}
+
+.block-screen hr {
+    transform: rotate(-90deg);
+    /* width: 100px; */
+    justify-content: left;
+    margin: 1%;
+    color: #f7654a;
+    opacity: 1;
+
 }
 
 .blockPrivate,
@@ -177,7 +190,7 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 3% 0% 4% 0%;
+        padding: 6% 0% 6% 0%;
         backdrop-filter: brightness(30%);
         -webkit-backdrop-filter: brightness(30%);
     }
@@ -255,3 +268,27 @@ footer .footer-bar .using-index {
     color: black;
     border: 1px solid #f7654a;
 }
+
+
+.pswp-gallery__item {
+    margin: 0 4px 4px 0;
+  }
+  .pswp-gallery__item img {
+    display: block;
+  }
+  .pswp-gallery {
+    max-width: 650px;
+    padding: 100px 50px 50px;
+    background: #eee;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pswp__dynamic-caption {
+    color: #fff;
+    width: 100%;
+  }
+  .pswp__dynamic-caption a {
+    color: #fff;
+    text-decoration: underline;
+  }

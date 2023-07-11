@@ -9,6 +9,8 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: black;
+
+    padding: 0 2%;
 }
 
 .services-h3 h3 {
@@ -43,7 +45,7 @@ body {
     .service div {
         /* margin: 0rem 1rem 0rem 1rem; */
         padding: 2rem;
-        padding-left: 7rem;
+        padding-left: 6rem;
     }
     
     .service .none {

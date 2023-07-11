@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/buttons.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.css">
+  <link rel="stylesheet" href="./photoswipe-dynamic-caption-plugin.css">
   <title>KronkStroy</title>
  </head>
  <body>
@@ -64,188 +66,170 @@
   </header> -->
 
 
-  <section class="first-screen">
-    <a href="#we-do">
-    <div>
-        <img src="img/Kronk.svg" >
+  <div class="pswp-gallery" id="gallery">
+    <div class="pswp-gallery__item">
+      <a  
+        href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" 
+        data-pswp-width="1669" 
+        data-pswp-height="2500" 
+        target="_blank">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt="Demo image 1" />
+      </a>
+      <div class="pswp-caption-content"><b>Lorem ipsum dolor (1933)</b><br>Color photograph<br>12 x 10</div>
     </div>
-    </a>
-  </section>
-
-  <section >
-    <div ><h2>ЧЕМ МЫ ЗАНИМАЕМСЯ?</h2></div>
-      <div class="block-screen ">
-        <a class="block4" onclick = "viewBlock4()" type="button"  value="4" >
-          <div>
-            <img src="img/icons/premium-icon-house-building-48770.png">
-            <h3>ВСЕ ПРОЕКТЫ</h3>
-            </div>
-          </a>
-        <a class="block1" onclick = "viewBlock1()" type="button"  value="1" >
-          <div>
-            <img src="img/icons/premium-icon-house-building-48770.png">
-            <h3>СТРОИТЕЛЬСТВО ЧАСТНОГО СЕКТОРА</h3>
-            </div>
-          </a>
-          <a class="block2" onclick = "viewBlock2()" type="button"  value="2" >
-            <div>
-              <img src="img/icons/premium-icon-stepped-building-tower-48755.png">
-              <h3>СТРОИТЕЛЬСТВО КОМЕРЧЕСКОЙ НЕДВИЖИМОСТИ</h3>
-              </div>
-            </a>
-            <a class="block3" onclick = "viewBlock3()" type="button"  value="3" >
-              <div>
-                <img src="img/icons/premium-icon-building-48765.png">
-                <h3>СТРОИТЕЛЬСТВО ЖЫЛОЙ НЕДВИЖИМОСТИ</h3>
-                </div>
-            </a>
-    </div>
-            </section>
-
-  <section>
-    <div class="project-h2" id="we-do"><h2>НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ</h2></div>
-      <div class="project-photos">
-        <!-- <div >
-            <img src="img/portf_2.jpg">
-            <hr >
-            <h3>HPL и Кортен в частном секторе г. Днепр</h3>
-        </div>
-        <div >
-            <img src="img/portf_3.jpg">
-            <hr >
-            <h3>Алюмокомпозитные панели Alufas и «Екатериненский» дом</h3>
-        </div>
-        <div >
-            <img src="img/portf_4.jpg">
-            <hr >
-            <h3>АТБ EXPRESS город Запорожье</h3>
-        </div>
-        <div >
-            <img src="img/portf_7.jpg">
-            <hr >
-            <h3>АТБ-маркет город Днепр.</h3>
-        </div>
-        <div >
-            <img src="img/portf_9.jpg">
-            <hr >
-            <h3>Кортен сталь и АКП на «М. Кошки» г. Днепр</h3>
-        </div>
-        <div >
-            <img src="img/portf_10.jpg">
-            <hr >
-            <h3>Многоэтажный дом «Delmar» в центре города Днепр</h3>
-        </div>
-        <div >
-            <img src="img/portf_11.jpg">
-            <hr >
-            <h3>«АТЕМ». Ателье керамики город Киев</h3>
-        </div>
-        <div >
-            <img src="img/portf_12.jpg">
-            <hr >
-            <h3>Voomy IT Park г. Харьков 2013 год.</h3>
-        </div> -->
-    </div>
+  
+    <div class="pswp-gallery__item">
+      <a  
+        href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" 
+        data-pswp-width="2500" 
+        data-pswp-height="1666" 
+        target="_blank">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="Demo image 2" />
+      </a>
+      <div class="pswp-caption-content">
+        <b>Vivamus elementum (2016)</b><br>ullamcorper ultricies nisi, nam eget dui, etiam rhoncus, maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero<br>32 x 37 x 1.8 inches
       </div>
-  </section>
-
-  <section class="services">
-    <div class="services-h2"><h2>СЕРВИС</h2></div>
+    </div>
+  
+    <div class="pswp-gallery__item">
+      <a  
+        href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-2500.jpg" 
+        data-pswp-width="2500" 
+        data-pswp-height="1667" 
+        target="_blank">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-200.jpg" alt="Demo image 3" />
+      </a>
+      <div class="pswp-caption-content">
+        <b>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. (2008)</b><br>quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem, ut libero venenatis faucibus.
+      </div>
+    </div>
     
-      <!-- <div class="white-columns" >
-          <div>
-                <h3>РЕКЛАМНЫЕ КОНСТРУКЦИИ</h3>
-                <hr>
-                <h4>Мы предоставляем полный цикл изготовления вывесок, начиная от дизайн-проекта и до монтажа на объекте. Современные технологии освещения и производства элементов наружной рекламы, а также многолетний опыт позволяют нам изготавливать наиболее качественную привлекательную и энергосберегательную наружную рекламу.</h4>
-                <a>ПОСМОТРЕТЬ ПОДРОБНЕЕ</a>
-
-        </div>
-          <div class="photo-columns"><img src="img/image-2.1-min.jpg"></div>
-        </div>
-      <div class="black-columns">
-          <div>
-                <h3>ФАСАДЫ ИЗ КОРТЕН СТАЛИ</h3>
-                <hr>
-                <h4>Кортен-сталь, сталь Кортен, Cor-Ten steel, просто Кортен. Называйте, как хотите, но сути дела это не меняет. Столкнулись с этим материалом лет 12-15 назад, точно уже и не вспомню. Так и главное, что увидел я ее первый раз не на фасаде, и не на памятнике, а на корабле. Говорю тогда товарищу, мол, что это за корабль такой — рухлядь какая-то ржавая. На что в ответ услышал, что я необразованный тип и многое интересное узнал и о себе, а главное и о Кортене… Забавная история получилась.Фасады из Кортен стали.</h4>
-                <a>ПОСМОТРЕТЬ ПОДРОБНЕЕ</a>
-
-        </div>
-          <div><img src="img/image-4.5-min.jpg"></div> 
-        </div>
-      <div class="white-columns">
-          <div>
-                <h3>АЛЮМИНИЕВЫЕ СВЕТОПРОЗРАЧНЫЕ КОНСТРУКЦИИ</h3>
-                <hr>
-                <h4>При возведении бизнес-центров, развлекательных заведений, госучреждений люди всё чаще выбирают эти материалы. Они отличаются хорошими эксплуатационными характеристиками, и цена на них довольно демократична.</h4>
-                <a>ПОСМОТРЕТЬ ПОДРОБНЕЕ</a>
-
-        </div>
-          <div><img src="img/image-5.2-min.jpg"></div>
+    <div class="pswp-gallery__item">
+      <a  
+        href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-2500.jpg" 
+        data-pswp-width="2500" 
+        data-pswp-height="1668" 
+        target="_blank">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-200.jpg" alt="Demo image 4" />
+      </a>
+      <div class="pswp-caption-content">
+        Short caption with <a href="https://example.com" target="_blank">the link</a>.
       </div>
-      <div class="black-columns">
-          <div>
-                <h3>НАВЕСНЫЕ ВЕНТИЛИРУЕМЫЕ ФАСАДЫ</h3>
-                <hr>
-                <h4>Обеспечивает естественную влажность воздуха и постоянную температуру в помещении создает дополнительную звукоизоляцию, уменьшает возможность возникновения грибков, поэтому даже люди с аллергией чувствовать себя комфортно в здании, украшенной вентилируемыми фасадами. Кроме того, вентилируемые фасады являются идеальными решением не только для утепления, но и для предоставления доме современный вид. Используя различные отделочные панели, архитекторы создают впечатляющие здания.</h4>
-                <a>ПОСМОТРЕТЬ ПОДРОБНЕЕ</a>
+    </div>
 
-        </div>
-          <div><img src="img/image-min.jpg"></div>
-      </div> -->
-    </section>
+    <div class="pswp-gallery__item">
+      <a  
+        href="https://dummyimage.com/400x400/555/fff/?text=400x400" 
+        data-pswp-width="500" 
+        data-pswp-height="500" 
+        target="_blank">
+        <img src="https://dummyimage.com/100x100/555/fff/" alt="Demo image 5" />
+      </a>
+      <div class="pswp-caption-content">
+        Small image
+      </div>
+    </div>
 
-  <section> 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2644.644311859089!2d34.9980154160544!3d48.48253577925242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe248adcbfe23%3A0xfc859195fe5b6fe8!2z0YPQuy4g0JDQutCw0LTQtdC80LjQutCwINCR0LXQu9C10LvRjtCx0YHQutC-0LPQviwgNTTQsCwg0JTQvdC40L_RgNC-LCDQlNC90LXQv9GA0L7Qv9C10YLRgNC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNDkwMDA!5e0!3m2!1sru!2sua!4v1639591844805!5m2!1sru!2sua" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy">
-            </iframe>
-    </section>
+    <div class="pswp-gallery__item">
+      <a  
+        href="https://dummyimage.com/200x1000/555/fff/" 
+        data-pswp-width="200" 
+        data-pswp-height="1000" 
+        target="_blank">
+        <img src="https://dummyimage.com/20x100/555/fff/" alt="Tall image" />
+      </a>
+    </div>
 
-            <section class="contact" id="contact">  
-            <div>
-                <h2>Свяжитесь с нами</h2>
-                <h4>Свяжитесь с нами Свяжитесь с нами </h4>
-                <form class="contact-form-formspree"  method="POST">
-                    <input class="contact-input" type="text" name="user-name" placeholder="*Ваше имя (обязательно)" required><br>
-                    <input class="contact-input" type="email" name="user-tel" placeholder="*Ваш e-mail (обязательно)" required><br>
-                    <input class="contact-input" type="text" name="user-subject" id="user_subject" placeholder="*Тема"required><br>
-                    <textarea class="contact-input" name="user-message" id="user_message"
-                    placeholder="*Сообщение"></textarea>
-                
-                    
-                    <button class="make-a-button">Отправить</button>
-                </form>
-                
-            </div>
-        </section>
+    <div class="pswp-gallery__item">
+      <a  
+        href="https://dummyimage.com/1000x200/555/fff/" 
+        data-pswp-width="1000" 
+        data-pswp-height="200" 
+        target="_blank">
+        <img src="https://dummyimage.com/100x20/555/fff/" alt="Wide image" />
+      </a>
+    </div>
+
+    <div class="pswp-gallery__item">
+      <a  
+        href="https://dummyimage.com/1200x500/555/fff/?text=no+caption" 
+        data-pswp-width="1200" 
+        data-pswp-height="500" 
+        target="_blank">
+        <img src="https://dummyimage.com/240x100/555/fff/" alt="" />
+      </a>
+    </div>
+  
+    <div class="pswp-gallery__item">
+      <a  
+        href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg" 
+        data-pswp-width="2500" 
+        data-pswp-height="1667" 
+        target="_blank">
+        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg" alt="Demo image 8" />
+      </a>
+      <div class="pswp-caption-content">
+        <b>Long caption</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br>Lorem Ipsum
+      </div>
+    </div>
+
+    <div class="pswp-gallery__item">
+      <a  
+        href="https://dummyimage.com/1500x1500/555/fff/?text=1500x1500" 
+        data-pswp-width="1500" 
+        data-pswp-height="1500" 
+        target="_blank">
+        <img src="https://dummyimage.com/100x100/555/fff/" alt="Large 1500x1500 square" />
+      </a>
+    </div>
 
 
-  <footer>
-      <div>
-          <img src="img/Kronk.svg" alt="">
-          <img src="img/facebook-min.png" alt="">
-          <img src="img/instagram-min.png" alt="">
-        </div>
-        <div>
-            <h3>Навигация</h3>
-            <a>Главная</a>
-            <a>Проекты</a>
-            <a>О нас</a>
-            <a>Услуги</a>
-            <a>Контакты</a>
-        </div>
-        <div>
-            <h3>локация</h3>
-            <h4>г. Днепр, Ул. Академика Белелюбского (бывш. Краснозаводская) Дом №54-а</h4>
-            <h4>+38 056 736-30-55 +38 096 692-64-53</h4>
-            <h4>kronkstroy@gmail.com</h4>
-        </div>
-        <div>
-            <p>© 2021, Kronk Stroy Systems</p>
-        </div>
-    </footer>
+    <div class="pswp-gallery__item">
+      <a  
+        href="https://dummyimage.com/600x1500/555/fff/?text=600x1500" 
+        data-pswp-width="600" 
+        data-pswp-height="1500" 
+        target="_blank">
+        <img src="https://dummyimage.com/60x150/555/fff/" alt="Demo image 9" />
+      </a>
+      <div class="pswp-caption-content">
+        <b>Another long caption</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br>Lorem Ipsum
+      </div>
+    </div>
+  </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
     <script src="js/project.js"></script>
     <script src="js/service.js"></script>
+    <script type="module">
+      import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe-lightbox.esm.js';
+      import PhotoSwipeDynamicCaption from './photoswipe-dynamic-caption-plugin.esm.js';
+
+      const smallScreenPadding = {
+        top: 0, bottom: 0, left: 0, right: 0
+      };
+      const largeScreenPadding = {
+        top: 30, bottom: 30, left: 0, right: 0
+      };
+      const lightbox = new PhotoSwipeLightbox({
+        gallerySelector: '#gallery',
+        childSelector: '.pswp-gallery__item',
+        
+        // optionaly adjust viewport
+        paddingFn: (viewportSize) => {
+          return viewportSize.x < 700 ? smallScreenPadding : largeScreenPadding
+        },
+        pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.esm.js')
+      });
+
+      const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
+        mobileLayoutBreakpoint: 700,
+        type: 'auto',
+        mobileCaptionOverlapRatio: 1
+      });
+
+      lightbox.init();
+    </script>
   </body>
 </html>
