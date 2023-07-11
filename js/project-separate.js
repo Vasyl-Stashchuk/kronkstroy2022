@@ -9,9 +9,9 @@
     </div>
     <div class="carousel">
     <button id="prev" type="button" class="prev"><</button>
-    <section id="container" class="pictures">
+    <div id="gallery" class="pswp-gallery pictures">
     
-    </section>
+    </div>
     <button id="next" type="button" class="next">></button>
     </div>
   <section>
@@ -285,10 +285,15 @@
         for (const image of images)
             if (project.id == image.id) {
                 imagesContainer.innerHTML += `
-                <div class="image">
                 
-                <img src="${image.photo}">
-                </div>
+                <div class="pswp-gallery__item">
+      <a href="${image.photo}" 
+        
+        target="_blank">
+        <img src="${image.photo}">
+      </a>
+      <div class="pswp-caption-content"><b>Lorem ipsum dolor (1933)</b><br>Color photograph<br>12 x 10</div>
+    </div>
                 `;
             }
         }
@@ -319,15 +324,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-document.querySelectorAll('.pictures img').forEach(image =>{
-    image.onclick = () =>{
-        document.querySelector('.popup-image').style.display = 'block' ;
-        document.querySelector('.popup-image img').src = image.getAttribute('src');  
-    }
-});
-document.querySelector ('.popup-image span') . onclick = ( ) =>{
-    document.querySelector ('.popup-image') . style.display = 'none';
-}    
+// document.querySelectorAll('.pictures img').forEach(image =>{
+//     image.onclick = () =>{
+//         document.querySelector('.popup-image').style.display = 'block' ;
+//         document.querySelector('.popup-image img').src = image.getAttribute('src');  
+//     }
+// });
+// document.querySelector ('.popup-image span') . onclick = ( ) =>{
+//     document.querySelector ('.popup-image') . style.display = 'none';
+// }    
 
 
 

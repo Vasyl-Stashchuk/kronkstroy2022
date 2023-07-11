@@ -277,7 +277,7 @@ footer .footer-bar .using-index {
     display: block;
   }
   .pswp-gallery {
-    max-width: 650px;
+    /* max-width: 650px; */
     padding: 100px 50px 50px;
     background: #eee;
     position: relative;
