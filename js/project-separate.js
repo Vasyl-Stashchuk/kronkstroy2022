@@ -288,8 +288,8 @@
                 
                 <div class="pswp-gallery__item">
       <a href="${image.photo}" 
-        data-pswp-width="800" 
-        data-pswp-height="800" >
+        data-pswp-width="600" 
+        data-pswp-height="700" >
         
         <img src="${image.photo}">
       </a>
