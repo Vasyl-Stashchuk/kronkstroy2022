@@ -68,7 +68,7 @@ and (max-width: 1250px){
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 6px;
-        padding: 0 6px;
+        padding: 10px 6px;
     
     }
     

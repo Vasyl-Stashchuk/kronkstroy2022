@@ -22,7 +22,7 @@
                 <a class="using-index" href="index.html">Головна</a>
                 <a class="using-about" href="about.html">Про нас </a>
                 <a class="using-project" href="project.html">Проекти</a>
-                <a class="using-service" href="service.html">Послуги</a>
+                <a class="using-service" href="aga.html">Послуги</a>
                 <a class="using-contact" href="contact.html">Контакти</a>
             </div>
         </div>
