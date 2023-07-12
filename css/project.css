@@ -10,13 +10,7 @@
     background-color: black;
 }
 
-.block-screen {
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    filter: invert();
-    padding: 1%;
-}
+
 
 .block-screen img {
     max-width: 50%;
@@ -39,11 +33,12 @@
 .block-screen div {
     display: flex;
     flex-direction: column;
-    background-color: #F7F7F7F7 ;
-    border-radius: 1rem;
+    background-color: white;
+    border-radius: 12px;
     align-items: center;
-    margin: 6%;
-    padding: 1%;
+    /* margin: 6%; */
+    padding: 12%;
+    gap: 10px;
 }
 
 
@@ -61,7 +56,28 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }    
+
+    .block-screen {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        filter: invert();
+        padding: 0 20%;
+        padding-bottom: 20px;
+    }
 }
+
+@media screen and (max-width: 1250px) {
+    .block-screen {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        filter: invert();
+        padding: 0 1% 10px;
+        /* padding-bottom: 20px; */
+    }
+ }
+
 
 footer .footer-bar .using-project {
     background-color: white;

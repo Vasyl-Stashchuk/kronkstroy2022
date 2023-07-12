@@ -26,13 +26,7 @@ header {
     filter: none;
 }
 
-.block-screen {
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    /* padding: 1%; */
-    padding-bottom: 20px;
-}
+
 
 .block-screen img {
     max-width: 50%;
@@ -183,6 +177,14 @@ header {
     .services article .photo-columns {
         display: contents;
     }
+
+    .block-screen {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        padding: 0 20%;
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 1250px) {
@@ -203,6 +205,14 @@ header {
         text-align: left;
         font-size: large;
     }
+
+    .block-screen {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        padding: 0 1% 10px;
+        /* padding-bottom: 20px; */
+    }
 }
 
 .contact {
@@ -216,7 +226,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3% 11%;
+    padding: 7% 11%;
 }
 
 .contact h2 {
