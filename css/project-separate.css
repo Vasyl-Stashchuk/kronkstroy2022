@@ -60,6 +60,7 @@ article .top-separate {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3% 0;
 }
 
 footer .footer-bar .using-project {
